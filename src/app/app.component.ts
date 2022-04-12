@@ -49,7 +49,7 @@ export class AppComponent implements OnInit {
         this.dataSource.sort = this.sort;
       },
       error: () => {
-        alert('Error while update...');
+        alert('Error while...');
       },
     });
   }
